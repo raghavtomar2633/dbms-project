@@ -1,0 +1,85 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(241, 161, 12);
+}
+  img.Logo{  
+    width: 75px; 
+  }
+
+form {
+    background-image: "https://promos.makemytrip.com/appfest/2x/Fullimage-BustNorthOffer-14Feb.jpg?crop=166:286&downsize=166:286&im=Resize=(286,166)";
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #04AA6D;
+    color: rgb(234, 230, 230);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f50b0b;
+  }
+  
+ 
+  .imgcontainer {
+    margin: 24px 10px 12px 20px;
+  }
+  
+
+  img.avatar {
+    width: 45%;
+    
+  }
+  img.book{
+    width: 30%;
+    height: 40%;
+   
+    margin: 50px 25px 10px 230px;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  .tl{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+  }

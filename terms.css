@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f71e2;
+    
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: #000000;
+}
+
+h2 {
+    color: #000000;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.container a {
+    color: #2866a3;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}

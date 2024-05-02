@@ -1,0 +1,71 @@
+
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #3a4f81;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+}
+
+#mission {
+    background-color: #e2e2e2;
+}
+
+#team {
+    background-color: #d4d4d4;
+}
+
+#values {
+    background-color: #c6c6c6;
+}
+
+/* Team member styling */
+.team-member {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #3f5485;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
